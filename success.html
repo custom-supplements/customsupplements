@@ -39,7 +39,6 @@
       gtag('config', 'UA-109688692-1');
     </script>
 
-
   </head>
 
   <body id="page-top">
@@ -277,6 +276,31 @@
       </div>
     </footer>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content ">
+          <div class="modal-header alert-success">
+            <h5 class="modal-title" id="exampleModalLabel">Success</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/custom_logo_wordsdark.png" class="img-fluid" alt="">
+            </br>
+            </br>
+            Your email was successfully submitted.
+            </br>
+            </br>
+            You will be the first to hear about the launch of Custom Supplements.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -286,6 +310,12 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+    
+    <script type="text/javascript">
+        $(window).on('load',function(){
+            $('#exampleModal').modal('show');
+        });
+    </script>
 
   </body>
 
