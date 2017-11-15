@@ -131,7 +131,7 @@ header.masthead {
     header.masthead .header-content h1 {
       font-size: 30px; }
   header.masthead .device-container {
-    max-width: 325px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto; }
     header.masthead .device-container .screen img {
@@ -148,7 +148,7 @@ header.masthead {
         header.masthead .header-content h1 {
           font-size: 50px; }
       header.masthead .device-container {
-        max-width: 325px; } 
+        max-width: 100%; } 
   }
   @media (max-width: 900px) {
     header.masthead .header-content .main-h2 {
